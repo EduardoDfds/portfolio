@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Eduardo Dias</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        body{
+            background-image: linear-gradient(to bottom, #073b4d, #056c85, #15a6ca);;
+            padding: 20px;
+            font-family: Arial;
+        }
+        .main{
+            max-width: 1000px;
+            margin: auto;
+        }
+        h1{
+            color: #fffeff;
+            font-size: 50px;
+            word-break: break-all;
+        }
+        h2{
+            color: #fffeff;
+        }
+        .row{
+            margin: 8px -16px;
+        }
+        .row, .row>.colum{
+            padding: 8px
+        }
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .colum{
+            float: left;
+            width: 25%;
+        }
+        @media screen and (max-width:900px){
+            .colum{
+                width: 50%;
+                border-radius: 5px;
+            }
+
+        }
+        @media screen and (max-width:600px){
+            .colum{
+                width: 100%;
+            }
+        }
+        .content{
+            background: #fffeff;
+            padding: 10px;
+        }
+        .subt{
+            color:white;
+        }
+        footer{
+            bottom: 0;
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 100px;    
+            text-align: center;
+            margin-top: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Meu portifolio</h1>
+        <hr/>
+        <h2>Eduardo Dias Ferreira da Silva</h2>
+        <p class="subt">Estudante de ES IFPR Campus Paranavai, e futuro dev</p>
+        <div class="contato">
+            <p class="subt">Contato: (44) 9 9766-3171</p>
+            <p class="subt">Email: odraudesaiddfs@gmail.com</p>
+        </div>
+        <div class="row">
+            <div class="colum">
+                <div class="content">
+                    <img src="./imagens/imagem1.png" alt="imagem de teste sem conteudo" style="width:100%;">
+                    <h3>Projeto 1</h3>
+                    <p>Lorem ipsum litora consectetur volutpat ornare bibendum phasellus ad risus pharetra varius tristique cras aliquet metus, ac magna quisque inceptos nibh vel aliquet vel proin duis morbi ipsum morbi massa. mauris fames aliquam non vulputate facilisis diam mollis, bibendum ullamcorper quam nibh volutpat porta, odio blandit aenean aptent morbi hac.</p>
+                </div>
+            </div>
+            <div class="colum">
+                <div class="content">
+                    <img src="./imagens/imagem2.png" alt="imagem de teste sem conteudo" style="width:100%;">
+                    <h3>Projeto 2</h3>
+                    <p>Lorem ipsum litora consectetur volutpat ornare bibendum phasellus ad risus pharetra varius tristique cras aliquet metus, ac magna quisque inceptos nibh vel aliquet vel proin duis morbi ipsum morbi massa. mauris fames aliquam non vulputate facilisis diam mollis, bibendum ullamcorper quam nibh volutpat porta, odio blandit aenean aptent morbi hac.</p>
+                </div>
+            </div>
+            <div class="colum">
+                <div class="content">
+                    <img src="./imagens/imagem3.png" alt="imagem de teste sem conteudo" style="width:100%;">
+                    <h3>Projeto 3</h3>
+                    <p>Lorem ipsum litora consectetur volutpat ornare bibendum phasellus ad risus pharetra varius tristique cras aliquet metus, ac magna quisque inceptos nibh vel aliquet vel proin duis morbi ipsum morbi massa. mauris fames aliquam non vulputate facilisis diam mollis, bibendum ullamcorper quam nibh volutpat porta, odio blandit aenean aptent morbi hac.</p>
+                </div>
+            </div>
+            <div class="colum">
+                <div class="content">
+                    <img src="./imagens/imagem4.png" alt="imagem de teste sem conteudo" style="width:100%;">
+                    <h3>Projeto 4</h3>
+                    <p>Lorem ipsum litora consectetur volutpat ornare bibendum phasellus ad risus pharetra varius tristique cras aliquet metus, ac magna quisque inceptos nibh vel aliquet vel proin duis morbi ipsum morbi massa. mauris fames aliquam non vulputate facilisis diam mollis, bibendum ullamcorper quam nibh volutpat porta, odio blandit aenean aptent morbi hac.</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <img src="./imagens/imagem5.png" alt="imagem geral" style="width: 100%;">
+            <h3>Sistema de Gestão Empresarial.</h3>
+            <p>Lorem ipsum augue quam ornare conubia habitasse curae a ad luctus elementum, fringilla nibh in donec volutpat convallis tortor interdum dictum. eleifend mattis habitasse maecenas nibh varius vel primis aenean eros odio fusce sociosqu augue, eros phasellus amet potenti volutpat condimentum tristique suspendisse malesuada congue tempor tincidunt. blandit elementum suspendisse placerat rhoncus porta praesent inceptos luctus fames eleifend, in fusce praesent diam a velit nibh justo porta, integer urna curabitur condimentum vehicula dictumst posuere pulvinar suspendisse. suscipit phasellus praesent aenean in sagittis nullam iaculis cras, felis vel turpis dui sapien rhoncus sociosqu conubia, orci quisque senectus ipsum nam quisque himenaeos. </p>
+        </div>
+    <footer class="rodape">
+          
+    </footer>
+    </div>
+</body>
+</html>
